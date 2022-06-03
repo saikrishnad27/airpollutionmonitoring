@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".second">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:background="@drawable/circle"
+        android:layout_margin="55dp"
+        android:gravity="center"
+        android:text="ppm"
+        android:id="@+id/dsp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REFRESH"
+        android:textSize="45dp"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/dsp"
+        android:onClick="mani"
+        android:id="@+id/skr"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicator"
+        android:id="@+id/bb"
+        android:layout_below="@id/skr"
+        android:textSize="30dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="italic"
+         android:layout_marginTop="15dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

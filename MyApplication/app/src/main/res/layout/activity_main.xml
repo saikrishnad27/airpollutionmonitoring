@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:layout_height = "match_parent"
+    tools:context = ".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text = "LoginPage"
+                android:layout_width="wrap_content"
+                android:layout_height = "wrap_content"
+                android:id = "@+id/textview"
+                android:textSize = "35dp"
+                android:layout_alignParentTop = "true"
+                android:layout_centerHorizontal = "true" />
+
+            <TextView
+               android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "MQ135"
+              android:layout_marginBottom="10dp"
+              android:layout_marginTop="10dp"
+             android:id = "@+id/textView"
+                android:layout_below = "@id/textview"
+            android:layout_centerHorizontal = "true"
+            android:textColor = "#02b218"
+           android:textSize = "35dp" />
+
+<EditText
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:id = "@+id/editText"
+    android:hint = "Enter Name"
+    android:textColorHint="#39241e"
+    android:layout_marginTop = "46dp"
+    android:layout_below = "@id/imageView"
+    android:layout_alignParentLeft = "true"
+    android:layout_alignParentStart = "true"
+    android:layout_alignParentRight = "true"
+    android:layout_alignParentEnd = "true" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView"
+    android:src="@drawable/downl"
+    android:layout_below="@id/textView"
+    android:layout_centerHorizontal="true" />
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Attempts Left:"
+    android:id="@+id/textView2"
+    android:layout_below="@id/editText2"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textSize="25dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:id="@+id/textView3"
+    android:layout_alignTop="@id/textView2"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignBottom="@id/textView2"
+    android:layout_toEndOf="@id/textview"
+    android:textSize="25dp"
+    android:layout_toRightOf="@id/textview" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_below="@+id/editText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/editText"
+                android:layout_alignEnd="@+id/editText"
+                android:hint="Password" />
+
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:id="@+id/button"
+    android:textSize="30dp"
+    android:layout_below="@id/textView2"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Exit"
+    android:id="@+id/button2"
+    android:textSize="25dp"
+    android:layout_below="@id/button"/>
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

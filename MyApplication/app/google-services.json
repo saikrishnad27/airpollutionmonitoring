@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "880827760235",
+    "firebase_url": "https://airpollutionmonit.firebaseio.com",
+    "project_id": "airpollutionmonit",
+    "storage_bucket": "airpollutionmonit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880827760235:android:f4c218cefbd86d67",
+        "android_client_info": {
+          "package_name": "com.ntr.krishna.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880827760235-pq2uetrl0gq0si0es2np9s0jk7roqrnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ntr.krishna.myapplication",
+            "certificate_hash": "1aa8afc66097d80c9a7995dd36aa49160543114a"
+          }
+        },
+        {
+          "client_id": "880827760235-0um1v1mpj9jqd0287p6f7ot6j9i7drh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDto819LGmdDVHis7C4BEN0aNW1DBegS40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880827760235-0um1v1mpj9jqd0287p6f7ot6j9i7drh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
